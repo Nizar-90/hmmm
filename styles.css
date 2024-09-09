@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fef5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.hero {
+    background-color: #ffe0e0;
+    text-align: center;
+    padding: 60px 20px;
+    margin-top: 50px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    color: #d81b60;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    color: #555;
+}
+
+.cta-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d81b60;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.cta-btn:hover {
+    background-color: #c2185b;
+}
+
+.apology {
+    padding: 40px;
+    text-align: center;
+}
+
+.apology h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.apology p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.gift {
+    padding: 40px;
+    text-align: center;
+    background-color: #f8bbd0;
+}
+
+.gift h2 {
+    font-size: 2.5em;
+    color: #880e4f;
+    margin-bottom: 20px;
+}
+
+.gift-image {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.gift p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.music {
+    padding: 40px;
+    text-align: center;
+    background-color: #ffe0b2;
+}
+
+.music h2 {
+    font-size: 2.2em;
+    color: #ef6c00;
+    margin-bottom: 20px;
+}
+
+audio {
+    margin-top: 20px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #e1bee7;
+    color: #333;
+    font-size: 1.1em;
+}
