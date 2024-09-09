@@ -14,10 +14,20 @@
             <p>Belum waktunya untuk membuka pesan ini. Simpan rasa penasarannya dan tunggu instruksi selanjutnya dari aku. Kalau kamu terus maksa, nanti jadi kurang seru! 😆</p>
             <p>Periksa lagi nanti, ya. Aku akan beri tahu kapan saatnya tiba! 😉</p>
             <div class="footer">
-                <h1>😜</h1>
-                <p><strong>HEHEHE</strong></p>
+                <p>Cheers,</p>
+                <p><strong>[Namamu]</strong></p>
+                <p>Jumlah kunjungan: <span id="visit-count">0</span></p>
             </div>
         </div>
     </div>
+    <script src="https://countapi.xyz/hit/YOUR_NAMESPACE/YOUR_KEY"></script>
+    <script>
+        // Fungsi untuk mendapatkan jumlah kunjungan dari CountAPI
+        fetch('https://countapi.xyz/get/YOUR_NAMESPACE/YOUR_KEY')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('visit-count').innerText = data.value;
+            });
+    </script>
 </body>
 </html>
